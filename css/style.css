@@ -1,0 +1,346 @@
+/*Opening Screen Style Sheet*/
+
+/* Responsive Device Recognition */
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}
+
+
+/* Cross Browser Compatibility CSS */
+/**
+ * html5doctor.com Reset Style Sheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Maren Vernon Portfolio Home CSS Begins */
+body {
+	font: normal 16px/1.5 'Lato', Arial, sans-serif;
+	color: #32004B;
+	text-align: justify;
+	min-width: 320px;
+}
+strong {
+	font-weight: bold;
+}
+
+#contact-menu{
+	position: fixed;
+	z-index: 400;
+	top: -.75em;
+	right: 5%;
+	opacity: 0.75;
+	width: 100%;
+}
+#contact-menu-sub{
+	float: right;
+	border: 0.1em solid #ae8ac0;
+	border-radius: 2.5em 0em 2.5em 2.5em;
+	background: #ae8ac0;
+	padding: 1em .5em .5em;
+}
+#contact-menu li{
+	display: inline;
+}
+#contact-menu a{
+	font: bolder .9em 'Lato', Arial, sans-serif;
+	text-transform: uppercase;
+	color: #32004B;
+	text-decoration: none;
+}
+#contact-menu img{
+	width: 2.5em;
+	margin-bottom: -.75em;
+	padding: .25em;
+}
+
+#main{
+	display: table;
+	max-width: 45em;
+	margin: 3.5em auto 0;
+	padding: 0% 2%;
+}
+.mainpic{
+	display: table-cell;
+	vertical-align: middle;
+	width: 65%;
+	min-width: 5em;
+}
+#portpic{
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+
+.circle{
+	width: 10em;
+	height: 10em;
+	margin: 1.5em 2em 1.5em 0;
+	background-color: #ae8ac0;
+	background-position: center;
+	background-size: cover;
+	background-repeat:no-repeat;
+	border-radius: 50%;
+	box-shadow: .75em .5em .5em 0.25em #32004B;
+}
+	#writing{
+		background-image:url('../img/writing.jpg');
+	}
+	#cc-site{
+		background-image:url('../img/business.png');
+		margin-left: 3em;
+		width: 12em;
+		height: 12em;
+	}
+	#samples-site{
+		background-image:url('../img/neo-samples.jpg');
+	}
+.site-examples a{
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #32004B;
+	text-decoration: none;
+}
+.site-examples a span{
+	position: absolute;
+	width: 15em;
+	margin-top: 5em;
+	margin-left: -2.5em;
+	padding: 0 1em;
+	text-align: center;
+	font-size: .9em;
+	opacity: .9;
+	background: #FFF;
+	border-radius: 0.25em;
+}
+	#cc-site span{
+		margin-top: 6em;
+		margin-left: -2em;
+	}
+.site-examples a:hover span{
+	background: #FFA500;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.main-text{
+	width: 90%;
+	margin: .5em auto;
+}
+.main-text h1{
+	font: bolder 2.25em/1.5 'Lato', Arial, sans-serif;
+	text-transform: uppercase;
+	padding-bottom: .5em;
+}
+.main-text p{
+	margin: 1.5em auto;
+}
+.main-text a{
+	color: #32004B;
+	text-decoration: none;
+}
+.main-text a:hover{
+	color: #FFA500;
+}
+
+.smalltext{
+	font-style: italic;
+	font-size: 90%;
+	padding-top: 3em;
+}
+
+.legal{
+	margin-top: 4em;
+}
+.legal h2{
+	font: bolder 1.5em/1.5 'Lato', Arial, sans-serif;
+	text-transform: uppercase;
+	padding-bottom: .5em;
+}
+.legal h3{
+	font-weight: bolder;
+	text-transform: uppercase
+}
+.legal ul{
+	margin-left: 2.5em;
+}
+
+footer{
+	clear: both;
+	width: 90%;
+	margin: 0 auto 2em;
+	font: normal 70%/1.5 'Lato', Arial, sans-serif;
+	color: #32004B;
+	padding-top: 20em;
+	text-align: right;
+}
+footer p{
+	padding-top: 1.5em;
+}
+footer a{
+	padding: 0;
+	color: #32004B;
+	text-decoration: none;
+}
+footer a:hover{
+	color: #FFA500;
+}
+#sitelock_shield_logo img{
+	width: 8em;
+}
+
+@media screen and (max-width: 550px) {
+	.circle{
+		width: 8em;
+		height: 8em;
+	}
+		#cc-site{
+			margin-left: 2em;
+			width: 10em;
+			height: 10em;
+		}
+	.site-examples a span{
+		margin-top: 4em;
+		margin-left: -3.5em;
+	}
+		#cc-site span{
+			margin-top: 5em;
+			margin-left: -1em;
+			width: 12em;
+		}
+}
+
+@media screen and (max-width: 450px) {
+	.circle{
+		width: 6em;
+		height: 6em;
+	}
+		#cc-site{
+			margin-left: 2em;
+			width: 8em;
+			height: 8em;
+		}
+	.site-examples a span{
+		margin-top: 3em;
+		margin-left: -4.5em;
+	}
+		#cc-site span{
+			margin-top: 4em;
+			margin-left: -2em;
+			width: 11em;
+		}
+}
+	
+@media screen and (max-height: 450px) and (orientation: landscape) {
+	#main{
+		transform: scale(.75);
+		margin: -2.5em auto -5em;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	#contact-menu a {
+		font: bolder .8em 'Lato', Arial, sans-serif;
+	}
+}
+
+/*--------------------------------------------------------------
+## 404 Page
+--------------------------------------------------------------*/
+.wrong-turn{
+	width: 80%;
+	margin: 5em auto 2em;
+	display: table;
+}
+.ugh-img{
+	width: 30%;
+	min-width: 20em;
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 2em;
+}
+.ugh-img img{
+	width: 100%;
+	border-radius: 50%;
+}
+.ugh-text{
+	display: table-cell;
+	vertical-align: middle;
+}
+#ugh-big{
+	font-size: 1.75rem;
+}
+.ugh-text a{
+	text-decoration: none;
+	color: #32004B;
+}
+
+.ugh-text a:hover{
+	color: #FFA500;
+}
+
+@media screen and (max-width: 760px) {
+	.wrong-turn{
+		width: 80%;
+		margin: 2em auto 2em;
+		display: table;
+	}
+	.ugh-img{
+		display: block;
+		margin: 0 auto;
+		padding-right: 0em;
+	}
+	.ugh-text{
+	display: block;
+	text-align: center;
+	}
+	#ugh-big{
+		font-size: 1.25rem;
+	}
+}

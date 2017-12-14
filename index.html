@@ -1,72 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<!-- Maren Vernon Portfolio -->
+<head>
+	<meta charset="utf-8">
+	<title>Maren Vernon, WordPress Developer</title>
+	<meta name="author" content="Maren Vernon Maren Greif">
+	<meta name="description" content="A portfolio site for Maren Vernon (formerly Maren Greif), available for web design and development, currently focusing on WordPress development.">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- recognizes device, see also code in CSS -->
+	
+	<link href="css/style.css" rel="stylesheet" type='text/css'>
+	
+	<link href='https://fonts.googleapis.com/css?family=Lato:900,400' rel='stylesheet' type='text/css'>
+	
+	<script>
+	if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+		var msViewportStyle = document.createElement("style");
+		msViewportStyle.appendChild(
+			document.createTextNode(
+				"@-ms-viewport{width:auto!important}"
+			)
+		);
+		document.getElementsByTagName("head")[0].
+			appendChild(msViewportStyle);
+	}
+	</script>
+</head>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Codified Concepts : My GitHub Page">
+<body>
+	
+<div id="contact-menu">
+	<div id="contact-menu-sub">
+		<ul>
+			<li>
+				<a href="mailto:maren@codifiedconcepts.com">
+					<img src="img/icon-email.png" alt="Email Me" />
+				</a>
+			</li>
+			<li>
+				<a href="https://codifiedconcepts.com/" target="_BLANK">
+					<img src="img/icon-hireme.png" alt="Business" />
+				</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/marvernon" target="_BLANK">
+					<img src="img/icon-linkedin.png" alt="LinkedIn" />
+				</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/CodifiedConcept" target="_BLANK">
+					<img src="img/icon-twitter.png" alt="Twitter" />
+				</a>
+			</li>
+			<li>
+				<a href="https://www.facebook.com/CodifiedConcepts" target="_BLANK">
+					<img src="img/icon-facebook.png" alt="Facebook" />
+				</a>
+			</li>
+			<li>
+				<a href="https://codepen.io/codifiedconcepts" target="_BLANK">
+					<img src="img/icon-codepen.png" alt="CodePen" />
+				</a>
+			</li>
+			<li>
+				<a href="https://github.com/codifiedconcepts" target="_BLANK">
+					<img src="img/icon-github.png" alt="GitHub" />
+				</a>
+			</li>
+		</ul>
+	</div>
+</div><!-- /end #contactMenu -->
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<div id="main">
+	<aside class="mainpic">
+		<img id="portpic" src="img/portfoliopic.jpg" alt=""/>
+	</aside>
+	<aside class="site-examples">
+		<a href="https://codifiedconcepts.com/published-pieces/" target="_BLANK"><div class="circle" id="writing"><span>Published&nbsp;Pieces</span></div></a>
+		<a href="https://codifiedconcepts.com/" target="_BLANK"><div class="circle" id="cc-site"><span>Business</span></div></a>
+		<a href="https://codified-concepts.neocities.org/" target="_BLANK"><div class="circle" id="samples-site"><span>Fun&nbsp;Samples</span></div></a>
+	</aside>
+</div>
 
-    <title>Codified Concepts</title>
-  </head>
+<div class="main-text">
+	<h1>Hi,&nbsp;I'm&nbsp;Maren.</h1>
+	<p>I am a former project manager who fell in love with learning to code, drawn to the blend of the technical and the creative. Helping small businesses, solopreneurs, authors, and creatives establish a professional online presence tailored to their personality and their audience is my joy. I bring my penchant for organization and attention to detail, years of project collaboration experience, copyediting and proofreading abilities, communication skills, and my passion for clean code and user-friendly design to each project.</p>
+	<p>Please <a href="https://codifiedconcepts.com/" target="_BLANK">visit my business site</a> to hire me for your website project. Or see some things I build for fun <a href="https://codified-concepts.neocities.org/" target="_BLANK">here</a> or <a href="https://codepen.io/codifiedconcepts/" target="_BLANK">here</a>. All my sites are responsive, so check them out on your desktop, tablet, and mobile devices.</p>
+	<p>When I’m not developing websites for clients, you can find me working as a teaching assistant for <a href="https://skillcrush.com/" target="_BLANK">Skillcrush</a> or building GoldieBlox projects with my kids.</p>
+	<p class="smalltext">If you came here via a <a href="https://skillcrush.com/2014/05/16/beautiful-web-design-portfolios/" target="_BLANK">link from a Skillcrush article</a> about beautiful web design portfolios, you can still see the old version of my site that they reference <a href="https://codified-concepts.neocities.org/firstsite/index.html" target="_BLANK">here.</a></p>
+</div>
 
-  <body>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+<!--<script src="js/script.js"></script>-->
+<!--<script src="js/jquery.smooth-scroll.min.js"></script>-->
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/codifiedconcepts">View on GitHub</a>
+<footer>
+	<a href="terms-of-service.html">TERMS&nbsp;OF&nbsp;SERVICE</a>&nbsp; &nbsp;|&nbsp; &nbsp;<a href="privacy-policy.html">PRIVACY&nbsp;POLICY</a>
+	<p>Copyright 2016 by Maren Vernon<br>All content on this website, such as text, graphics, logos, and images, is the property of Maren Vernon and protected by United States and international copyright laws.</p>
+</footer>
 
-          <h1 id="project_title">Codified Concepts</h1>
-          <h2 id="project_tagline">My GitHub Page</h2>
-	</section>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome!</h3>
-
-<p>Hi! I'm Maren Vernon of Codified Concepts. I am still setting up my GitHub Page, so I appreciate your patience.</p>
-<p>In the meantime, you can find me at <a href="https://codifiedconcepts.com" class="user-mention">my business site.</a></p>
-<aside id="profilepic">
-        <img src="images/cc-profilepic.png" alt="Maren Vernon">
-</aside>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a></h3>
-
-<p></p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a></h3>
-
-<p></p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a></h3>
-
-<p> </p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a></h3>
-
-<p></p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-
-
-  </body>
+</body>
 </html>
