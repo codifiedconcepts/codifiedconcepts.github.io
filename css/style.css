@@ -260,8 +260,9 @@ footer a:hover{
 }
 
 @media screen and (max-width: 450px) {
-    #contact-menu-sub {
+    #contact-menu-sub{
         padding: 1em 0em;
+    }
     #contact-menu img{
     	padding: .25em .25em;
     }
