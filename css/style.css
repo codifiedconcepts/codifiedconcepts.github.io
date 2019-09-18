@@ -59,7 +59,7 @@ input, select { vertical-align: middle; }
 
 /* Maren Vernon Portfolio Home CSS Begins */
 body {
-	font: normal 16px/1.5 'Lato', Arial, sans-serif;
+	font: normal 17px/1.5 'Lato', Arial, sans-serif;
 	color: #32004B;
 	text-align: justify;
 	min-width: 320px;
@@ -81,7 +81,7 @@ strong {
 	border: 0.1em solid #ae8ac0;
 	border-radius: 2.5em 0em 2.5em 2.5em;
 	background: #ae8ac0;
-	padding: 1em .5em .5em;
+	padding: 1em;
 }
 #contact-menu li{
 	display: inline;
@@ -95,13 +95,13 @@ strong {
 #contact-menu img{
 	width: 2.5em;
 	margin-bottom: -.75em;
-	padding: .25em;
+	padding: .25em 1em;
 }
 
 #main{
 	display: table;
 	max-width: 45em;
-	margin: 3.5em auto 0;
+	margin: 5em auto 0;
 	padding: 0% 2%;
 }
 .mainpic{
@@ -236,7 +236,10 @@ footer a:hover{
 }
 
 @media screen and (max-width: 550px) {
-	.circle{
+    #contact-menu img{
+    	padding: .25em .5em;
+    }
+    .circle{
 		width: 8em;
 		height: 8em;
 	}
@@ -257,7 +260,12 @@ footer a:hover{
 }
 
 @media screen and (max-width: 450px) {
-	.circle{
+    #contact-menu-sub {
+        padding: 1em 0em;
+    #contact-menu img{
+    	padding: .25em .25em;
+    }
+    .circle{
 		width: 6em;
 		height: 6em;
 	}
@@ -276,7 +284,7 @@ footer a:hover{
 			width: 11em;
 		}
 }
-	
+
 @media screen and (max-height: 450px) and (orientation: landscape) {
 	#main{
 		transform: scale(.75);
